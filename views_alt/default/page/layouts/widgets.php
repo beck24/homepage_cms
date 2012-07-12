@@ -66,7 +66,9 @@ foreach ($columns as $row) {
 					echo elgg_view_entity($widget, array('show_access' => $show_access));
 				}
 			}
-		}
+		} else {
+      echo "&nbsp;";
+    }
     echo "</div>";
     
   }
