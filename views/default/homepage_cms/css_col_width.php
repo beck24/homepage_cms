@@ -25,3 +25,8 @@ foreach ($widths as $index => $width) {
 
 <?php
 }
+?>
+
+#homepage-cms .elgg-widget-instance-free_html, .elgg-widget-instance-free_html .elgg-body {
+  overflow: visible;
+}

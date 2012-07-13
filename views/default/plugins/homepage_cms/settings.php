@@ -32,3 +32,5 @@ $options = array(
 
 echo elgg_echo('homepage_cms:label:index_layout') . "<br>";
 echo elgg_view('input/plaintext', $options) . "<br><br>";
+
+echo elgg_echo('homepage_cms:index_layout:instructions') . "<br><br>";

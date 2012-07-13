@@ -68,6 +68,9 @@ foreach ($columns as $row) {
 				}
 			}
 		}
+    elseif(!elgg_is_admin_logged_in()){
+      echo "&nbsp;";
+    }
 
     echo "</div>";
     
