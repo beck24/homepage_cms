@@ -40,7 +40,7 @@ if (elgg_can_edit_widget_layout($context)) {
 	echo elgg_view('page/layouts/widgets/add_panel', $params);
 }
 	
-$column_info = elgg_get_plugin_setting('index_layout', 'bizcore_index');
+$column_info = elgg_get_plugin_setting('index_layout', 'homepage_cms');
 $columns = explode("\n", $column_info);
 
 $column_index = 0;

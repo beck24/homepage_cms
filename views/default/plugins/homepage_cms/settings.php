@@ -10,7 +10,7 @@ $options = array(
     ),
 );
 
-echo elgg_echo('bizcore_index:label:footer_override') . "<br>";
+echo elgg_echo('homepage_cms:label:footer_override') . "<br>";
 echo elgg_view('input/dropdown', $options) . "<br><br>";
 
 
@@ -20,7 +20,7 @@ $options = array(
     'value' => $vars['entity']->footer_content,
 );
 
-echo elgg_echo('bizcore_index:label:footer_content') . "<br>";
+echo elgg_echo('homepage_cms:label:footer_content') . "<br>";
 echo elgg_view('input/longtext', $options) . "<br><br>";
 
 
@@ -30,5 +30,5 @@ $options = array(
     'value' => $vars['entity']->index_layout,
 );
 
-echo elgg_echo('bizcore_index:label:index_layout') . "<br>";
+echo elgg_echo('homepage_cms:label:index_layout') . "<br>";
 echo elgg_view('input/plaintext', $options) . "<br><br>";
