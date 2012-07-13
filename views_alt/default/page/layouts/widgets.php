@@ -58,17 +58,17 @@ foreach ($columns as $row) {
     
     echo "<div class=\"elgg-widgets\" id=\"elgg-widget-col-$column_index\">";
     if(elgg_is_admin_logged_in()){
-      echo "<div style=\"background-color: yellow; border: 1px solid brown;\">$column_index</div>";
+      echo "<div style=\"text-align: center; background-color: yellow;\">----- Column $column_index -----</div>";
     }
+    
 		if (sizeof($column_widgets) > 0) {
 			foreach ($column_widgets as $widget) {
 				if (array_key_exists($widget->handler, $widget_types)) {
 					echo elgg_view_entity($widget, array('show_access' => $show_access));
 				}
 			}
-		} else {
-      echo "&nbsp;";
-    }
+		}
+
     echo "</div>";
     
   }

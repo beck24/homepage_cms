@@ -20,6 +20,7 @@ foreach ($widths as $index => $width) {
 #bizcore-index #elgg-widget-col-<?php echo $index+1; ?> {
   width: <?php echo $width; ?>%;
   float: left;
+  min-height: 0 !important;
 }
 
 <?php
