@@ -5,11 +5,11 @@ function homepage_cms_init() {
   // serve specific css to make the widgets not look like widgets
   // for anyone except admin - admin sees them as widgets for the controls
   if (!elgg_is_admin_logged_in()) {
-    elgg_extend_view('css/elgg', 'homepage_cms/css', 1000);
+    elgg_extend_view('page/elements/head', 'homepage_cms/css');
   }
   
   // serve some css for both users and admins
-  elgg_extend_view('css/elgg', 'homepage_cms/css_col_width', 1000);
+  elgg_extend_view('page/elements/head', 'homepage_cms/css_col_width', 1000);
   
   // context not set yet, use url to see if we're on the front page
   if (current_page_url() == elgg_get_site_url()) {

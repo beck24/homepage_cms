@@ -1,0 +1,6 @@
+== Version History ==
+
+x.x:
+
+1.1 (08/25/2012):
+ - fix issue with css caching (reported by Steve Clay)

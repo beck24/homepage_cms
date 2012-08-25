@@ -1,4 +1,5 @@
 
+<style>
 #homepage-cms .elgg-widgets .elgg-module-widget.elgg-widget-instance-free_html .elgg-head,
 #homepage-cms .elgg-widgets .elgg-module-widget.elgg-widget-instance-index_login .elgg-head
 {
@@ -17,3 +18,4 @@
 {
   border: 0;
 }
+</style>

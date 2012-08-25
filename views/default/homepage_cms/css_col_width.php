@@ -1,3 +1,5 @@
+
+<style>
 <?php
 // index column widths
 
@@ -30,3 +32,5 @@ foreach ($widths as $index => $width) {
 #homepage-cms .elgg-widget-instance-free_html, .elgg-widget-instance-free_html .elgg-body {
   overflow: visible;
 }
+
+</style>
