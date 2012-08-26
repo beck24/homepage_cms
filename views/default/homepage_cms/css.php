@@ -1,21 +1,11 @@
 
-<style>
-#homepage-cms .elgg-widgets .elgg-module-widget.elgg-widget-instance-free_html .elgg-head,
-#homepage-cms .elgg-widgets .elgg-module-widget.elgg-widget-instance-index_login .elgg-head
-{
-  display: none;
+#homepage-cms .elgg-widget-instance-free_html, .elgg-widget-instance-free_html .elgg-body {
+  overflow: visible;
 }
 
-#homepage-cms .elgg-module-widget.elgg-widget-instance-free_html,
-#homepage-cms .elgg-module-widget.elgg-widget-instance-index_login
-{
-  margin: 0;
-  background-color: transparent;
+.homepage-cms-column-header {
+  text-align: center;
+  background-color: yellow;
+  border: 1px dashed #ff0000;
+  color: black;
 }
-
-#homepage-cms .elgg-module-widget.elgg-widget-instance-free_html .elgg-body,
-#homepage-cms .elgg-module-widget.elgg-widget-instance-index_login .elgg-body
-{
-  border: 0;
-}
-</style>

@@ -2,5 +2,10 @@
 
 x.x:
 
+1.2 (08/25/2012):
+ - moved hardcoded style to css class
+ - more sensible view handling - view location got cached and caused issues
+ - more sensible css logic
+
 1.1 (08/25/2012):
  - fix issue with css caching (reported by Steve Clay)

@@ -58,7 +58,7 @@ foreach ($columns as $row) {
     
     echo "<div class=\"elgg-widgets\" id=\"elgg-widget-col-$column_index\">";
     if(elgg_is_admin_logged_in()){
-      echo "<div style=\"text-align: center; background-color: yellow;\">----- Column $column_index -----</div>";
+      echo "<div class=\"homepage-cms-column-header\">----- Column $column_index -----</div>";
     }
     
 		if (sizeof($column_widgets) > 0) {
